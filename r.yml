@@ -1,0 +1,18 @@
+--- 
+packages: 
+  - cran_mirror: https://cran.r-project.org 
+    num_threads: 4
+    packages: 
+      - name: sf
+      - name: tidyverse
+      - name: shiny
+      - name: DT
+      - name: shinythemes
+      - name: plotly
+      - name: leaflet
+      - name: tidytransit
+      - name: hms
+      - name: lubridate
+  - cran_mirror: https://github.com/rOpenGov/pxweb 
+    packages: 
+      - name: pxweb
